@@ -1,0 +1,39 @@
+body{
+    background-color:gainsboro;
+}
+.container {
+display:flex;
+justify-content: center;
+align-items: baseline;
+}
+
+.right , .left {
+    width:50%;
+    padding: 20px;
+}
+
+ul li{
+    list-style-type: none; 
+    font-size: 17px;
+    padding: 12px 8px 16px 50px;
+
+}
+button{
+    border:3px solid rgb(60, 0, 255);;
+    outline:none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+ul li span{
+    position:absolute;
+    right :70%;
+    width: 50;
+    cursor: pointer;
+}
+.task-box {
+    background-color:aliceblue;
+    padding: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color:antiquewhite ;
+}
+ol li{
+    list-style-type: none; 
+    cursor: pointer;
+    padding: 12px 8px 16px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.container{
+    text-align: center;
+}

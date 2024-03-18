@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini word</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <label for="color">color :</label>
+        <input type="color" id="color"  onchange="changercouleur()"><br><br>
+
+        <label for="number">number : </label>
+        <input type="number" id="number"  min="10" max="20" step="1" onchange="changertaille()"><br><br>
+
+        <label for="police">police : </label>
+        <select id="police" onchange="changerPolice()">
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="Times New Roman, serif">Times New Roman</option>
+            <option value="Courier New, monospace">Courier New</option>
+            <option value="Verdana, sans-serif">Verdana</option>
+        </select>
+    </div>
+    <p id="paragraphe">petit essai pour le paragraphe</p>
+    <script src="./code2.js"></script>
+</body>
+</html>

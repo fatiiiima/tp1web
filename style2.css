@@ -1,0 +1,13 @@
+body{
+  background-color: antiquewhite;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .container > * {
+    margin-right: 20px;
+  }
